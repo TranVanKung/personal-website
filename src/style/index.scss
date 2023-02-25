@@ -1,0 +1,6 @@
+@import './base/variable', './base/global', './base/layout',
+  './base/overrideAntd', './base/animation';
+
+@import './pages/notFound', './pages/home';
+
+@import './component/button';

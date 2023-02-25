@@ -1,0 +1,79 @@
+.ant-badge {
+  cursor: pointer !important;
+}
+
+.ant-page-header {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+}
+
+.ant-layout-sider-zero-width-trigger {
+  display: none !important;
+}
+
+.ant-layout-footer {
+  background: white !important;
+  padding: 1.6rem 5rem !important;
+}
+
+.ant-select-selection-selected-value {
+  margin-right: 0.7rem !important;
+}
+
+.ant-page-header-heading-title {
+  font-size: 2.1rem !important;
+}
+
+// antd form
+.ant-form-item {
+  margin-bottom: 0.5rem !important;
+}
+
+.ant-form label {
+  font-weight: 500 !important;
+}
+
+// antd model, drawer
+.ant-drawer-header,
+.ant-modal-header {
+  background: var(--color-google) !important;
+  border-radius: 0 !important;
+}
+
+.ant-drawer-title,
+.ant-modal-title {
+  color: white !important;
+}
+
+.ant-drawer-close,
+.ant-modal-close {
+  color: white !important;
+}
+
+// nprogress
+#nprogress .bar {
+  background: var(--color-orange) !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px var(--color-orange), 0 0 5px var(--color-orange) !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: var(--color-orange) !important;
+  border-left-color: var(--color-orange) !important;
+}
+
+.ant-menu-inline-collapsed {
+  width: 100px !important;
+}
+
+.ant-back-top-content {
+  background-color: var(--color-instagram) !important;
+  color: white;
+
+  &:hover {
+    filter: brightness(90%);
+  }
+}

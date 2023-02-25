@@ -1,0 +1,60 @@
+html,
+body {
+  font-size: 62.5%;
+  position: relative;
+}
+
+body {
+  font-family: var(--font-family-primary) !important;
+  color: var(--text-color) !important;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-orange) !important;
+  color: white !important;
+}
+
+::-moz-selection {
+  background: var(--color-orange) !important;
+  color: white !important;
+}
+
+.progress-bar {
+  height: 3px;
+  background: var(--color-google);
+  position: fixed;
+  z-index: 100;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--color-primary);
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim 0.5s infinite alternate;
+  pointer-events: none;
+  z-index: 100;
+  box-sizing: content-box;
+}
+
+.cursor::after {
+  box-sizing: content-box;
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border: 8px solid var(--color-pink);
+  border-radius: 50%;
+  opacity: 0.5;
+  top: -8px;
+  left: -8px;
+  animation: cursorAnim2 0.5s infinite alternate;
+}
+
+.cursor-expand {
+  animation: cursorAnim3 0.5s forwards;
+}

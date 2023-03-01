@@ -412,7 +412,17 @@ const Home = () => {
             <div className="indicator" />
             <div className="text">
               <span>I am available for work!</span>
-              <span>Contact me</span>
+              <span
+                style={{ cursor: "pointer" }}
+                onClick={() => {
+                  window.open(
+                    "https://drive.google.com/drive/folders/1p-oYqY7XDFr4Zv4QQa20xRGEyED-FQtD?usp=sharing",
+                    "_blank"
+                  );
+                }}
+              >
+                Contact me
+              </span>
             </div>
           </div>
 
